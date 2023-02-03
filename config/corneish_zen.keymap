@@ -33,15 +33,15 @@
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR|  6  |  7  |  8  |  9  |  0  |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+// |      |  1  |  2  |  3  |  4  |  5  |   | BT1 | BT2 | BT3 | BT4 | BT5 |BT CLR|
+// |      |  6  |  7  |  8  |  9  |  0  |   |  +  |  -  |  /  |  *  |  %  |      |
+// |      |     |     |     |     |     |   |  &  |  =  |  ,  |  .  |     |      |
 //                    | GUI |     | SPC |   |  .  |  ,  | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
+   &trans &kp N6 &kp N7 &kp N8 &kp N9 &kp N0     &kp KP_PLUS &kp KP_MINUS &kp KP_MULTIPLY &kp KP_DIVIDE &kp PERCENT &trans
+   &trans  &trans &trans &trans &trans &trans    &kp AMPS &kp KP_EQUAL &kp KP_COMMA &kp KP_DOT &trans &trans
+                         &trans &trans &trans    &kp KP_DOT &kp KP_COMMA &trans 
                         >;
                 };
 
