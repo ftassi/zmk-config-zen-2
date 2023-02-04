@@ -63,12 +63,12 @@
 // |      |  !  |  @  |  {  |  }  |  \  |   |  |  |  _  |  <  |  >  |     |      |
 // |      |  $  |  $  |  (  |  )  |  `  |   |  +  |  -  |  /  |  *  |  %  |      |
 // |      |  %  |  ^  |  [  |  ]  |  ~  |   |  &  |  =  |  ,  |  .  |  /  |      |
-//                    |     |     |     |   |     |     |     |
+//                    |  :  |     |  =  |   |     |     |     |
                         bindings = <
    &trans &kp HASH &kp AT &kp LBRC &kp RBRC &kp BSLH           &kp PIPE &kp UNDER &kp LT &kp GT &trans &trans
    &trans &kp EXCL &kp DLLR &kp LPAR &kp RPAR &kp GRAVE        &kp KP_PLUS &kp KP_MINUS &kp KP_MULTIPLY &kp KP_DIVIDE &kp PERCENT &trans
    &trans &kp PERCENT &kp CARET &kp LBKT &kp RBKT &kp TILDE    &kp AMPS &kp KP_EQUAL &kp KP_COMMA &kp KP_DOT &trans &trans
-                        &trans &trans &trans      &trans &trans &trans
+                        &kp COLON &trans &kp KP_EQUAL             &trans &trans &trans
                         >;
                 };
         };
