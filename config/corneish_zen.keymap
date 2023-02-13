@@ -53,9 +53,9 @@
 //                   | GUI | ESC/LWR | SPC |   | ENT | RSE  | GUI |
                         bindings = <
    &mt LALT TAB &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &mt RALT BSLH
-   &gqt LCTRL BSPC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SINGLE_QUOTE
+   &gqt LCTRL BSPC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &gqt RCTRL SINGLE_QUOTE
    &caps_word &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHIFT MINUS
-                  &sk LGUI &lt NUM ESC &bht LSHIFT SPACE   &kp RET &mo SYM &sk RGUI
+                  &sk LGUI &lt NUM ESC &gqt LSHIFT SPACE   &kp RET &mo SYM &sk RGUI
                         >;
                 };
                 lower_layer {
