@@ -39,7 +39,7 @@
                 default_layer {
                         label = "QWERTY";
 // -----------------------------------------------------------------------------------------
-// | Alt/TAB |  A  |  W  |  E  |  R  |  T  |   |  A  |  U   |  I  |  O  |  P  | Alt/\|  |
+// | Alt/TAB |  Q  |  W  |  E  |  R  |  T  |   |  A  |  U   |  I  |  O  |  P  | Alt/\|  |
 // | CTRL/BS |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | CTRL/'  |
 // |   SHFT  |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHIFT/-_|
 //                   | GUI | ESC/LWR | SPC |   | ENT | RSE  | GUI |
